@@ -1,5 +1,5 @@
 
-var NotificationCenter = new(new Class({
+var NotificationCenter = {
 	observers: {
 		'*': []
 	},
@@ -20,4 +20,4 @@ var NotificationCenter = new(new Class({
 		});
 	}
 
-}))();
+};
